@@ -24,11 +24,15 @@ public class _131_RunningTestCasesUsingTestNG2 {
 	@BeforeTest 
 	public void prerequiste() {
 		System.out.println("i am before test opereation (2)");
+		System.out.println("i am before test opereation (2)");
+		System.out.println("i am before test opereation (2)");
 	}
 	
 	@AfterSuite
 	public void postrequiste() {
 		System.out.println("i am After suite opereation (2)");
+		System.out.println("i am After suite opereation (3)");
+		System.out.println("i am After suite opereation (3)");
 	}
 	
 	@AfterMethod

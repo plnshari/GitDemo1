@@ -29,10 +29,12 @@ public class _131_RunningTestCasesUsingTestNG4 {
 	@BeforeSuite
 	public void prerequiste() {
 		System.out.println("i am Before Suite opereation (4)");
+		System.out.println("i am Before Suite opereation (4)");
 	}
 	
 	@AfterClass
 	public void postclassrequiste() {
 		System.out.println("i am After class opereation (4)");
+		System.out.println("i am Before Suite opereation (4)");
 	}
 }
