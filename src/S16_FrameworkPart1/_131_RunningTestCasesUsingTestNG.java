@@ -64,12 +64,14 @@ public class _131_RunningTestCasesUsingTestNG {
 
 	@BeforeClass
 	public void preclassrequiste() {
-		System.out.println("i am After class opereation (1)");
+		System.out.println("i am After class opereation (0)");
 	}
 	
 	@BeforeClass
 	public void preclassrequiste1() {
 		System.out.println("i am After class opereation (1)");
+		System.out.println("i am After class opereation (2)");
+		System.out.println("i am After class opereation (3)");
 	}
 	
 }

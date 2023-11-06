@@ -34,5 +34,7 @@ public class _131_RunningTestCasesUsingTestNG2 {
 	@AfterMethod
 	public void premethod() {
 		System.out.println("i am After every method in the class(2)");
+		System.out.println("i am After every method in the class(3)");
+		System.out.println("i am After every method in the class(4)");
 	}
 }
