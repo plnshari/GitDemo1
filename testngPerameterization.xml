@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Application">
+	<listeners>
+		<listener
+			class-name="/TestNG/src/S16_FrameworkPart1/_143_Listioners.java" />
+	</listeners>
+
+	<parameter name="URL" value="www.google.com" />
+	<parameter name="KEY" value="KEY"></parameter>
+
+	<test thread-count="5" name="Great Me">
+		<parameter name="URL" value="www.yt.com" />
+		<classes>
+			<class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG" />
+			<class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2" />
+		</classes>
+	</test>
+
+	<test name='Details with out mail'>
+		<parameter name="URL" value="www.QA.com" />
+		<classes>
+			<class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3" />
+			<class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4" />
+		</classes>
+	</test>
+
+	<test name='Full Name without mail'>
+		<parameter name="KEY" value="KEY3"></parameter>
+		<classes>
+			<class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2" />
+			<class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3" />
+		</classes>
+	</test>
+
+</suite> 

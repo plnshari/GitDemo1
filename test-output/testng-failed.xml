@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="20" parallel="tests" name="Failed suite [Application]" guice-stage="DEVELOPMENT">
+  <test thread-count="20" parallel="tests" name="Full Name without mail(failed)">
+    <classes>
+      <class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2">
+        <methods>
+          <include name="premethod"/>
+          <include name="postrequiste"/>
+          <include name="Demo"/>
+          <include name="prerequiste"/>
+          <include name="Demo2test"/>
+        </methods>
+      </class> <!-- S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2 -->
+    </classes>
+  </test> <!-- Full Name without mail(failed) -->
+  <test thread-count="20" parallel="tests" name="Details with out mail(failed)">
+    <classes>
+      <class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4">
+        <methods>
+          <include name="prerequiste"/>
+          <include name="Demo"/>
+          <include name="postrequiste"/>
+          <include name="Demo2test"/>
+          <include name="postclassrequiste"/>
+        </methods>
+      </class> <!-- S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4 -->
+    </classes>
+  </test> <!-- Details with out mail(failed) -->
+  <test thread-count="20" parallel="tests" name="Great Me(failed)">
+    <classes>
+      <class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG">
+        <methods>
+          <include name="postrequiste"/>
+          <include name="Demo"/>
+          <include name="premethod"/>
+          <include name="Demo2test"/>
+          <include name="prerequiste"/>
+          <include name="preclassrequiste"/>
+        </methods>
+      </class> <!-- S16_FrameworkPart1._131_RunningTestCasesUsingTestNG -->
+      <class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2">
+        <methods>
+          <include name="premethod"/>
+          <include name="Demo"/>
+          <include name="postrequiste"/>
+          <include name="prerequiste"/>
+          <include name="Demo2test"/>
+        </methods>
+      </class> <!-- S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2 -->
+    </classes>
+  </test> <!-- Great Me(failed) -->
+</suite> <!-- Failed suite [Application] -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Application">
+
+	<test thread-count="5" name="Great Me">
+		<classes>
+			<class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG" />
+			<class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2" />
+		</classes>
+	</test> 
+
+	<test name='Details with out mail'>
+		<classes>
+			<class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3" >
+				<methods>
+					<exclude name="Demo2.*" /> <!-- Excluding using Regular expression will not exicute all the test cases which starts with given value-->
+				</methods>
+			</class>
+			<class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4" />
+		</classes>
+	</test>
+
+	<test name='Full Name without mail'>
+		<classes>
+			<class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2" />
+			<class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3">
+				<methods>
+					<exclude name="Demo2test" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> 

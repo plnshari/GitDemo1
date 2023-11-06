@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="5" failed="4" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-17T11:01:38 IST" name="Application" finished-at="2023-09-17T11:01:38 IST" duration-ms="49">
+    <groups>
+      <group name="2">
+        <method signature="_131_RunningTestCasesUsingTestNG.Demo2test(java.lang.String,java.lang.String)[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" name="Demo2test" class="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG"/>
+        <method signature="_131_RunningTestCasesUsingTestNG.Demo()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" name="Demo" class="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG"/>
+        <method signature="_131_RunningTestCasesUsingTestNG2.Demo2test(java.lang.String)[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@4d154ccd]" name="Demo2test" class="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2"/>
+        <method signature="_131_RunningTestCasesUsingTestNG4.Demo2test(java.lang.String)[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4@235ecd9f]" name="Demo2test" class="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4"/>
+        <method signature="_131_RunningTestCasesUsingTestNG4.Demo()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4@235ecd9f]" name="Demo" class="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4"/>
+        <method signature="_131_RunningTestCasesUsingTestNG3.Demo()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3@202b0582]" name="Demo" class="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3"/>
+        <method signature="_131_RunningTestCasesUsingTestNG2.Demo2test(java.lang.String)[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@74e28667]" name="Demo2test" class="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2"/>
+        <method signature="_131_RunningTestCasesUsingTestNG3.Demo()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3@1cf6d1be]" name="Demo" class="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3"/>
+      </group> <!-- 2 -->
+    </groups>
+    <test started-at="2023-09-17T11:01:38 IST" name="Full Name without mail" finished-at="2023-09-17T11:01:38 IST" duration-ms="42">
+      <class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG">
+        <test-method is-config="true" signature="postrequiste()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" started-at="2023-09-17T11:01:38 IST" name="postrequiste" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrequiste -->
+      </class> <!-- S16_FrameworkPart1._131_RunningTestCasesUsingTestNG -->
+      <class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@74e28667]" started-at="2023-09-17T11:01:38 IST" name="prerequiste" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="Demo2test(java.lang.String)[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@74e28667]" started-at="2023-09-17T11:01:38 IST" name="Demo2test" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method Demo2test but has not been marked @Optional or defined
+in C:\Users\plsrihar.old\Applications - Softwares\Selenium\Learning_Workspace\TestNG\testngParllelTestting.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method Demo2test but has not been marked @Optional or defined
+in C:\Users\plsrihar.old\Applications - Softwares\Selenium\Learning_Workspace\TestNG\testngParllelTestting.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2test -->
+        <test-method signature="Demo()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@74e28667]" started-at="2023-09-17T11:01:38 IST" name="Demo" finished-at="2023-09-17T11:01:38 IST" depends-on-methods="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2.Demo2test" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2.Demo() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@74e28667 depends on not successfully finished methods 
+[S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2.Demo2test() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@74e28667]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2.Demo() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@74e28667 depends on not successfully finished methods 
+[S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2.Demo2test() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@74e28667]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="postrequiste()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@74e28667]" started-at="2023-09-17T11:01:38 IST" name="postrequiste" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrequiste -->
+      </class> <!-- S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2 -->
+      <class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3@1cf6d1be]" started-at="2023-09-17T11:01:38 IST" name="prerequiste" finished-at="2023-09-17T11:01:38 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="Demo()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3@1cf6d1be]" started-at="2023-09-17T11:01:38 IST" name="Demo" finished-at="2023-09-17T11:01:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="postrequiste()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3@1cf6d1be]" started-at="2023-09-17T11:01:38 IST" name="postrequiste" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrequiste -->
+      </class> <!-- S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3 -->
+      <class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4@235ecd9f]" started-at="2023-09-17T11:01:38 IST" name="prerequiste" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+      </class> <!-- S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4 -->
+    </test> <!-- Full Name without mail -->
+    <test started-at="2023-09-17T11:01:38 IST" name="Details with out mail" finished-at="2023-09-17T11:01:38 IST" duration-ms="42">
+      <class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3">
+        <test-method signature="Demo()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3@202b0582]" started-at="2023-09-17T11:01:38 IST" name="Demo" finished-at="2023-09-17T11:01:38 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="postrequiste()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3@202b0582]" started-at="2023-09-17T11:01:38 IST" name="postrequiste" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrequiste -->
+      </class> <!-- S16_FrameworkPart1._131_RunningTestCasesUsingTestNG3 -->
+      <class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4">
+        <test-method signature="Demo2test(java.lang.String)[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4@235ecd9f]" started-at="2023-09-17T11:01:38 IST" name="Demo2test" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method Demo2test but has not been marked @Optional or defined
+in C:\Users\plsrihar.old\Applications - Softwares\Selenium\Learning_Workspace\TestNG\testngParllelTestting.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method Demo2test but has not been marked @Optional or defined
+in C:\Users\plsrihar.old\Applications - Softwares\Selenium\Learning_Workspace\TestNG\testngParllelTestting.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2test -->
+        <test-method signature="Demo()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4@235ecd9f]" started-at="2023-09-17T11:01:38 IST" name="Demo" finished-at="2023-09-17T11:01:38 IST" depends-on-methods="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4.Demo2test" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4.Demo() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4@235ecd9f depends on not successfully finished methods 
+[S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4.Demo2test() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4@235ecd9f]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4.Demo() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4@235ecd9f depends on not successfully finished methods 
+[S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4.Demo2test() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4@235ecd9f]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="postclassrequiste()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4@235ecd9f]" started-at="2023-09-17T11:01:38 IST" name="postclassrequiste" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postclassrequiste -->
+        <test-method is-config="true" signature="postrequiste()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4@235ecd9f]" started-at="2023-09-17T11:01:38 IST" name="postrequiste" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrequiste -->
+      </class> <!-- S16_FrameworkPart1._131_RunningTestCasesUsingTestNG4 -->
+    </test> <!-- Details with out mail -->
+    <test started-at="2023-09-17T11:01:38 IST" name="Great Me" finished-at="2023-09-17T11:01:38 IST" duration-ms="49">
+      <class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" started-at="2023-09-17T11:01:38 IST" name="prerequiste" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method is-config="true" signature="preclassrequiste()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" started-at="2023-09-17T11:01:38 IST" name="preclassrequiste" finished-at="2023-09-17T11:01:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preclassrequiste -->
+        <test-method signature="Demo2test(java.lang.String,java.lang.String)[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" started-at="2023-09-17T11:01:38 IST" name="Demo2test" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method Demo2test but has not been marked @Optional or defined
+in C:\Users\plsrihar.old\Applications - Softwares\Selenium\Learning_Workspace\TestNG\testngParllelTestting.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method Demo2test but has not been marked @Optional or defined
+in C:\Users\plsrihar.old\Applications - Softwares\Selenium\Learning_Workspace\TestNG\testngParllelTestting.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2test -->
+        <test-method is-config="true" signature="premethod()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" started-at="2023-09-17T11:01:38 IST" name="premethod" finished-at="2023-09-17T11:01:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- premethod -->
+        <test-method signature="datafetch(java.lang.String,java.lang.String)[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" started-at="2023-09-17T11:01:38 IST" name="datafetch" data-provider="getData" finished-at="2023-09-17T11:01:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datafetch -->
+        <test-method signature="datafetch(java.lang.String,java.lang.String)[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" started-at="2023-09-17T11:01:38 IST" name="datafetch" data-provider="getData" finished-at="2023-09-17T11:01:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datafetch -->
+        <test-method is-config="true" signature="premethod()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" started-at="2023-09-17T11:01:38 IST" name="premethod" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- premethod -->
+        <test-method signature="datafetch(java.lang.String,java.lang.String)[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" started-at="2023-09-17T11:01:38 IST" name="datafetch" data-provider="getData" finished-at="2023-09-17T11:01:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datafetch -->
+        <test-method is-config="true" signature="premethod()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" started-at="2023-09-17T11:01:38 IST" name="premethod" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- premethod -->
+        <test-method signature="Demo()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]" started-at="2023-09-17T11:01:38 IST" name="Demo" finished-at="2023-09-17T11:01:38 IST" depends-on-methods="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG.Demo2test" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method S16_FrameworkPart1._131_RunningTestCasesUsingTestNG.Demo() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b depends on not successfully finished methods 
+[S16_FrameworkPart1._131_RunningTestCasesUsingTestNG.Demo2test() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method S16_FrameworkPart1._131_RunningTestCasesUsingTestNG.Demo() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b depends on not successfully finished methods 
+[S16_FrameworkPart1._131_RunningTestCasesUsingTestNG.Demo2test() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG@3012646b]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- S16_FrameworkPart1._131_RunningTestCasesUsingTestNG -->
+      <class name="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@4d154ccd]" started-at="2023-09-17T11:01:38 IST" name="prerequiste" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="Demo2test(java.lang.String)[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@4d154ccd]" started-at="2023-09-17T11:01:38 IST" name="Demo2test" finished-at="2023-09-17T11:01:38 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method Demo2test but has not been marked @Optional or defined
+in C:\Users\plsrihar.old\Applications - Softwares\Selenium\Learning_Workspace\TestNG\testngParllelTestting.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method Demo2test but has not been marked @Optional or defined
+in C:\Users\plsrihar.old\Applications - Softwares\Selenium\Learning_Workspace\TestNG\testngParllelTestting.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2test -->
+        <test-method signature="Demo()[pri:0, instance:S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@4d154ccd]" started-at="2023-09-17T11:01:38 IST" name="Demo" finished-at="2023-09-17T11:01:38 IST" depends-on-methods="S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2.Demo2test" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2.Demo() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@4d154ccd depends on not successfully finished methods 
+[S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2.Demo2test() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@4d154ccd]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2.Demo() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@4d154ccd depends on not successfully finished methods 
+[S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2.Demo2test() on instance S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2@4d154ccd]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- S16_FrameworkPart1._131_RunningTestCasesUsingTestNG2 -->
+    </test> <!-- Great Me -->
+  </suite> <!-- Application -->
+</testng-results>
